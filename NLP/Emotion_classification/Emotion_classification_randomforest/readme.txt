@@ -1,0 +1,1 @@
+preDeal.py为预处理文件，randomforest.py为随机森林模型搭建、训练与验证，详情请阅实验报告
