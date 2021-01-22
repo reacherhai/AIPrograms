@@ -1,0 +1,3 @@
+blocksworld的查询语句写在test_block.txt中，本也可以直接在blockworld中定义，但是过多block会导致运算缓慢。
+查询时输入fact会使得ida*的搜索相当快。
+futoshiki的测试语句已补上，放在test_futo.txt文件中，按case分好。
