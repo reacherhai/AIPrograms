@@ -1,2 +1,2 @@
 # AIPrograms
-Update several useful AI program (including codes and reports)during my college years
+Update several useful AI programs (including codes and reports)during my college years
