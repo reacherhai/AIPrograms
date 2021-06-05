@@ -3,7 +3,9 @@ from __future__ import absolute_import
 from torch import nn
 from torch.nn import functional as F
 from torch.nn import init
+from .shallow_pam import ShallowPAM
 import torchvision
+
 import pdb
 
 
@@ -25,6 +27,7 @@ class ResNet(nn.Module):
         super(ResNet, self).__init__()
 
         self.depth = depth
+        self.shallow_pam = ShallowPAM(2048)
         self.pretrained = pretrained
         self.cut_at_pooling = cut_at_pooling
 
@@ -76,6 +79,8 @@ class ResNet(nn.Module):
 
         if self.cut_at_pooling:
             return x
+
+        x = self.shallow_pam(x)
 
         x = F.avg_pool2d(x, x.size()[2:])
         x = x.view(x.size(0), -1)

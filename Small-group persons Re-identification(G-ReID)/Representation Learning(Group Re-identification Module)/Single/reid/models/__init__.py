@@ -2,7 +2,6 @@ from __future__ import absolute_import
 
 from .resnet import *
 
-
 __factory = {
     'resnet18': resnet18,
     'resnet34': resnet34,
