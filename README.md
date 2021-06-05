@@ -35,6 +35,8 @@ Update several useful AI programs (including codes and articals)during my colleg
     
     ·Deep Learning and Reinforcement Learning
     
+    ·Group Re-Identification Based on single feature attention learning network(SFALN)
+    
     
 · O2OPrediction ofCouponRedemption
 
