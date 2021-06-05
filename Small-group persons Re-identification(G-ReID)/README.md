@@ -3,8 +3,8 @@
 
 ## Framework
 In the G-Reid task, we have a Query image p containing N people. Our goal is to find the corresponding group image p in the gallery set $G ={g_t}$, where t represents the $t^{th}$ group image in gallery G, let $g_{t}^{j}$represent the j^{th} person in the image g_{t}.  Our proposed framework consists of two main parts. First, the ReID-style training set is transferred to the G-Reid style using the style transfer method. Then, we send the images to the single feature attention learning network (SFALN) to extract features. During testing, these features will be used to calculate similarity of group images. The overall architecture of our proposed single feature attention learning network is shown in Fig.1. 
-![framework](C:\Users\OMEN\Desktop\大学\PRCV发表\model_final_version.jpg  "Framework")
-![PAM](C:\Users\OMEN\Desktop\大学\PRCV发表\pamf.jpg  "Framework")
+![framework](\model_final_version.jpg  "Framework")
+![PAM](\pamf.jpg  "Framework")
 
 ## Implement
   - Use CycleGAN to transfer the style of market1501 into group-style dataset.
